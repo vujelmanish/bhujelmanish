@@ -1,0 +1,15 @@
+header h1 {
+    text-align: center;
+    color: solid white;
+    font-size: 28px;
+    background-color: lightgreen;
+    padding: 5px;
+}
+body {
+    background-color: lightblue;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
