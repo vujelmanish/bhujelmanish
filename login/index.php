@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<script src="https://ajax.com.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <title>G-97 Saving Group</title>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/saving/index.php">G-97 Saving</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-0 mb-0 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="/saving/index.php">Home</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Downloads</span></a>
+          </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Contact</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/saving/register/index.php">Register</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/saving/login/index.php">Login</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </body>
+    <form action="login.php" method="post">
+    </div>
+    <?php if(isset($_GET['error'])) {?>
+            <p class="error"><?php echo $_GET['error']; ?></p>
+            <?php } ?>
+            
+            <center>
+              <h1>Login</h1>
+              <div style="background-color:lightblue; width:400px"><br>
+              <div>
+                  <label>Email Id:</label>
+                  <input type="text" name="Email" placeholder="Enter Your Email Id"><br><br>
+              </div>
+<div>
+          <label>Password:</label>
+            <input type="password" name="password" placeholder="Enter Your Password"> <br><br>
+            </div>
+            <div>
+        <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+        <label class="custom-control-label" for="customControlAutosizing">Remember my preference</label><br><br>
+      </div>
+            <button type="submit" class="form-control-center" id="success">Login</button>
+            <button type="submit" class="form-control-center" id="success"><a href="/saving">Back</a></button><br><br>
+            <label for="submit" class="form-control-center" id="success"><a href="#">Forgot Password ?</a></button>
+            </div>
+           </center> 
+          </form>
+  </div>
+</div>
+</html>
